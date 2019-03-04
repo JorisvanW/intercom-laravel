@@ -1,19 +1,28 @@
 {
-    "name": "slaughter550/intercom-laravel",
-    "description": "Laravel 5.x wrapper for Intercom-PHP",
-    "keywords": ["intercom", "laravel"],
+    "name": "jorisvanw/intercom-laravel",
+    "description": "Laravel Intercom PHP wrapper",
+    "keywords": [
+        "intercom",
+        "laravel"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Alex Slaughter",
-        "email": "alex@alexslaughter.com"
-    }],
+    "authors": [
+        {
+            "name": "Joris v. Willigen",
+            "email": "me@jorisvanw.me"
+        },
+        {
+            "name": "Alex Slaughter",
+            "email": "alex@alexslaughter.com"
+        },
+    ],
     "require": {
-        "intercom/intercom-php": "3.2.0",
-        "laravel/framework": ">=5.0"
+        "php": ">= 7.1",
+        "intercom/intercom-php": "4.*"
     },
     "autoload": {
         "psr-4": {
-          "Shadow\\IntercomLaravel\\": "src/"
+            "Shadow\\IntercomLaravel\\": "src/"
         }
     },
     "extra": {

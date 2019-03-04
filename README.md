@@ -5,7 +5,7 @@ Laravel 5.x Wrapper for Intercom API
 
 Using Composer:
 ```
-composer require slaughter550/intercom-laravel
+composer require jorisvanw/intercom-laravel
 ```
 
 ## Configuration
