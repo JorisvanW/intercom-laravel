@@ -14,7 +14,7 @@
         {
             "name": "Alex Slaughter",
             "email": "alex@alexslaughter.com"
-        },
+        }
     ],
     "require": {
         "php": ">= 7.1",
